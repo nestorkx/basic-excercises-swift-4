@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF044FBC1EE6EB760000E077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF044FBB1EE6EB760000E077 /* AppDelegate.swift */; };
+		EF044FBE1EE6EB760000E077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF044FBD1EE6EB760000E077 /* ViewController.swift */; };
+		EF044FC11EE6EB760000E077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF044FBF1EE6EB760000E077 /* Main.storyboard */; };
+		EF044FC31EE6EB760000E077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF044FC21EE6EB760000E077 /* Assets.xcassets */; };
+		EF044FC61EE6EB760000E077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF044FC41EE6EB760000E077 /* LaunchScreen.storyboard */; };
+		EF044FD11EE6EB760000E077 /* Age_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF044FD01EE6EB760000E077 /* Age_AppTests.swift */; };
+		EF044FDC1EE6EB760000E077 /* Age_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF044FDB1EE6EB760000E077 /* Age_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF044FCD1EE6EB760000E077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF044FB01EE6EB760000E077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF044FB71EE6EB760000E077;
+			remoteInfo = "Age App";
+		};
+		EF044FD81EE6EB760000E077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF044FB01EE6EB760000E077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF044FB71EE6EB760000E077;
+			remoteInfo = "Age App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF044FB81EE6EB760000E077 /* Age App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF044FBB1EE6EB760000E077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF044FBD1EE6EB760000E077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF044FC01EE6EB760000E077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF044FC21EE6EB760000E077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF044FC51EE6EB760000E077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF044FC71EE6EB760000E077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF044FCC1EE6EB760000E077 /* Age AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF044FD01EE6EB760000E077 /* Age_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_AppTests.swift; sourceTree = "<group>"; };
+		EF044FD21EE6EB760000E077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF044FD71EE6EB760000E077 /* Age AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF044FDB1EE6EB760000E077 /* Age_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_AppUITests.swift; sourceTree = "<group>"; };
+		EF044FDD1EE6EB760000E077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF044FB51EE6EB760000E077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF044FC91EE6EB760000E077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF044FD41EE6EB760000E077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF044FAF1EE6EB760000E077 = {
+			isa = PBXGroup;
+			children = (
+				EF044FBA1EE6EB760000E077 /* Age App */,
+				EF044FCF1EE6EB760000E077 /* Age AppTests */,
+				EF044FDA1EE6EB760000E077 /* Age AppUITests */,
+				EF044FB91EE6EB760000E077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF044FB91EE6EB760000E077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF044FB81EE6EB760000E077 /* Age App.app */,
+				EF044FCC1EE6EB760000E077 /* Age AppTests.xctest */,
+				EF044FD71EE6EB760000E077 /* Age AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF044FBA1EE6EB760000E077 /* Age App */ = {
+			isa = PBXGroup;
+			children = (
+				EF044FBB1EE6EB760000E077 /* AppDelegate.swift */,
+				EF044FBD1EE6EB760000E077 /* ViewController.swift */,
+				EF044FBF1EE6EB760000E077 /* Main.storyboard */,
+				EF044FC21EE6EB760000E077 /* Assets.xcassets */,
+				EF044FC41EE6EB760000E077 /* LaunchScreen.storyboard */,
+				EF044FC71EE6EB760000E077 /* Info.plist */,
+			);
+			path = "Age App";
+			sourceTree = "<group>";
+		};
+		EF044FCF1EE6EB760000E077 /* Age AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF044FD01EE6EB760000E077 /* Age_AppTests.swift */,
+				EF044FD21EE6EB760000E077 /* Info.plist */,
+			);
+			path = "Age AppTests";
+			sourceTree = "<group>";
+		};
+		EF044FDA1EE6EB760000E077 /* Age AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF044FDB1EE6EB760000E077 /* Age_AppUITests.swift */,
+				EF044FDD1EE6EB760000E077 /* Info.plist */,
+			);
+			path = "Age AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF044FB71EE6EB760000E077 /* Age App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF044FE01EE6EB760000E077 /* Build configuration list for PBXNativeTarget "Age App" */;
+			buildPhases = (
+				EF044FB41EE6EB760000E077 /* Sources */,
+				EF044FB51EE6EB760000E077 /* Frameworks */,
+				EF044FB61EE6EB760000E077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Age App";
+			productName = "Age App";
+			productReference = EF044FB81EE6EB760000E077 /* Age App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF044FCB1EE6EB760000E077 /* Age AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF044FE31EE6EB760000E077 /* Build configuration list for PBXNativeTarget "Age AppTests" */;
+			buildPhases = (
+				EF044FC81EE6EB760000E077 /* Sources */,
+				EF044FC91EE6EB760000E077 /* Frameworks */,
+				EF044FCA1EE6EB760000E077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF044FCE1EE6EB760000E077 /* PBXTargetDependency */,
+			);
+			name = "Age AppTests";
+			productName = "Age AppTests";
+			productReference = EF044FCC1EE6EB760000E077 /* Age AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF044FD61EE6EB760000E077 /* Age AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF044FE61EE6EB760000E077 /* Build configuration list for PBXNativeTarget "Age AppUITests" */;
+			buildPhases = (
+				EF044FD31EE6EB760000E077 /* Sources */,
+				EF044FD41EE6EB760000E077 /* Frameworks */,
+				EF044FD51EE6EB760000E077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF044FD91EE6EB760000E077 /* PBXTargetDependency */,
+			);
+			name = "Age AppUITests";
+			productName = "Age AppUITests";
+			productReference = EF044FD71EE6EB760000E077 /* Age AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF044FB01EE6EB760000E077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Robert Percival";
+				TargetAttributes = {
+					EF044FB71EE6EB760000E077 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					EF044FCB1EE6EB760000E077 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = EF044FB71EE6EB760000E077;
+					};
+					EF044FD61EE6EB760000E077 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = EF044FB71EE6EB760000E077;
+					};
+				};
+			};
+			buildConfigurationList = EF044FB31EE6EB760000E077 /* Build configuration list for PBXProject "Age App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF044FAF1EE6EB760000E077;
+			productRefGroup = EF044FB91EE6EB760000E077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF044FB71EE6EB760000E077 /* Age App */,
+				EF044FCB1EE6EB760000E077 /* Age AppTests */,
+				EF044FD61EE6EB760000E077 /* Age AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF044FB61EE6EB760000E077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF044FC61EE6EB760000E077 /* LaunchScreen.storyboard in Resources */,
+				EF044FC31EE6EB760000E077 /* Assets.xcassets in Resources */,
+				EF044FC11EE6EB760000E077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF044FCA1EE6EB760000E077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF044FD51EE6EB760000E077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF044FB41EE6EB760000E077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF044FBE1EE6EB760000E077 /* ViewController.swift in Sources */,
+				EF044FBC1EE6EB760000E077 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF044FC81EE6EB760000E077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF044FD11EE6EB760000E077 /* Age_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF044FD31EE6EB760000E077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF044FDC1EE6EB760000E077 /* Age_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF044FCE1EE6EB760000E077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF044FB71EE6EB760000E077 /* Age App */;
+			targetProxy = EF044FCD1EE6EB760000E077 /* PBXContainerItemProxy */;
+		};
+		EF044FD91EE6EB760000E077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF044FB71EE6EB760000E077 /* Age App */;
+			targetProxy = EF044FD81EE6EB760000E077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF044FBF1EE6EB760000E077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF044FC01EE6EB760000E077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF044FC41EE6EB760000E077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF044FC51EE6EB760000E077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF044FDE1EE6EB760000E077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF044FDF1EE6EB760000E077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF044FE11EE6EB760000E077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Age App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpercival.Age-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF044FE21EE6EB760000E077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Age App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpercival.Age-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF044FE41EE6EB760000E077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Age AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpercival.Age-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Age App.app/Age App";
+			};
+			name = Debug;
+		};
+		EF044FE51EE6EB760000E077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Age AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpercival.Age-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Age App.app/Age App";
+			};
+			name = Release;
+		};
+		EF044FE71EE6EB760000E077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Age AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpercival.Age-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Age App";
+			};
+			name = Debug;
+		};
+		EF044FE81EE6EB760000E077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Age AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpercival.Age-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Age App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF044FB31EE6EB760000E077 /* Build configuration list for PBXProject "Age App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF044FDE1EE6EB760000E077 /* Debug */,
+				EF044FDF1EE6EB760000E077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF044FE01EE6EB760000E077 /* Build configuration list for PBXNativeTarget "Age App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF044FE11EE6EB760000E077 /* Debug */,
+				EF044FE21EE6EB760000E077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF044FE31EE6EB760000E077 /* Build configuration list for PBXNativeTarget "Age AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF044FE41EE6EB760000E077 /* Debug */,
+				EF044FE51EE6EB760000E077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF044FE61EE6EB760000E077 /* Build configuration list for PBXNativeTarget "Age AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF044FE71EE6EB760000E077 /* Debug */,
+				EF044FE81EE6EB760000E077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF044FB01EE6EB760000E077 /* Project object */;
+}
